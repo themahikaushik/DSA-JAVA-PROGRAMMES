@@ -1,9 +1,15 @@
 package Java8;
+//before java1.7 this definition
 //interface is a template or blueprint of a class
 //all the methods of interface is by default public abstract
 //all the value in interface is by default public final static
 //no body//use static method
 //use private method
+//after java 1.8
+//we also define default,static,private method
+//overriden possible
+//multiple default static private method make 
+//multiple abstract make
 interface Message{
 	void displayMsg();
 	default void displayMsg(String msg) {
